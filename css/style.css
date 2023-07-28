@@ -129,6 +129,11 @@ img {
  ************************************************/
 
 /* Soluzione Tablet */
+@media screen and (max-width: 1160px) and (min-width: 769px) {
+    .container{
+        width: 100%;
+    }    
+}
 
 @media screen and (max-width: 768px){
     .container{
@@ -145,10 +150,4 @@ img {
         width: 100%;
         margin-bottom: 40px;
     }
-}
-
-@media screen and (max-width: 1160px) and (min-width: 769px) {
-    .container{
-        width: 100vw;
-    }    
 }
