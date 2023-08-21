@@ -150,4 +150,19 @@ img {
         width: 100%;
         margin-bottom: 40px;
     }
+
+    .lessons .col:last-child, .steps .col:last-child, .why-us .col-right:last-child{
+        margin-bottom: 0px;
+    }
+
+    .why-us{
+        background-color: #222222;
+        padding: 3rem 0;
+    }
+
+    .steps, .why-us{
+        margin-bottom: 0;
+    }
+
+
 }
